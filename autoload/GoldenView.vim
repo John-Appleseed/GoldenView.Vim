@@ -26,7 +26,7 @@ function! GoldenView#Init()
     endif
 
     let s:goldenview__golden_ratio = 1.618
-    lockvar s:goldenview__golden_ratio
+    "lockvar s:goldenview__golden_ratio
 
     set equalalways
     set eadirection=ver
